@@ -1,25 +1,25 @@
 #Find Smallest Num in Array
 
 
-# #METHOD-1
-# arr=list(map(int, input("Enter the numbers:").split()))
-# print(arr)
-# arr.sort()
-# print(f"Smallest Number is {arr[0]}.")
+#METHOD-1
+arr=list(map(int, input("Enter the elements:").split()))
+print(arr)
+arr.sort()
+print(f"Smallest element is {arr[0]}.")
 
 
-# #METHOD-2
-# arr=list(map(int, input("Enter the numbers:").split()))
-# print (arr)
-# smallest=arr[0]
+#METHOD-2
+arr1=list(map(int, input("Enter the elements:").split()))
+print (arr1)
+smallest=arr1[0]
 
-# for i in range(len(arr)):
-#     if arr[i]< smallest:
-#         smallest=arr[i]
+for i in range(len(arr1)):
+    if arr1[i]< smallest:
+        smallest=arr1[i]
         
-# print(f"Smallest Number is {smallest}.")
+print(f"Smallest element is {smallest}.")
 
 #method-3
-arr=list(map(int, input("Enter the numbers:").split()))
-print (arr)
-print(f"Smallest number is {min(arr)}.")
+arr2=list(map(int, input("Enter the elements:").split()))
+print (arr2)
+print(f"Smallest eleement is {min(arr2)}.")
