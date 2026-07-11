@@ -1,13 +1,6 @@
-#Reversing an array
+def reverse_array(arr):
+    arr.reverse()
+    return arr
 
-arr=list(map(int, input("Enter the Elements:").split()))
-print(arr)
-
-#METHOD-1
-arr.reverse()  
-print(arr)
-
-
-#METHOD2-
-reversed_arr=arr[::-1]
-print(reversed_arr)
+arr=list(map(int, input("Enter the elements: ").split()))
+print("reversed array: ", reverse_array(arr))
