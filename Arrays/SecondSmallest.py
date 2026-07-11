@@ -1,15 +1,8 @@
-#Find 2nd Smallest element 
+def Sec_smallest(arr):
+    arr.sort()
+    secondsmallest=arr[1]
+    
+    return secondsmallest    
 
-
-#METHOD-1
-arr=list(map(int, input("Enter the Elements:").split()))
-print(arr)
-arr.sort()
-print(f"{arr[1]} is the second smallest element in an array.")
-
-
-#METHOD-2
-arr1=list(map(int, input("Enter the Elements:").split()))
-print(arr1)
-arr1.sort(reverse=True) #REVERSE-SORT
-print(f"{arr1[-2]} is the second smallest element in an array.")
+arr = list(map(int, input("Enter the elements:").split()))
+print("Second Smallest element is :", Sec_smallest(arr))
